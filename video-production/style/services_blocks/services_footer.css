@@ -1,0 +1,10 @@
+.footer--services{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #17191C;
+}
+.footer__container--services{
+    margin-top: 0px;
+    border-top: none;
+}

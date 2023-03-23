@@ -1,0 +1,19 @@
+@import url(./normalize.css);
+@import url(./blocks/base.css);
+@import url(./blocks/header.css);
+/* @import url(./blocks/dropdown.css); */
+@import url(./blocks/hello.css);
+@import url(./blocks/offer.css);
+@import url(./blocks/news.css);
+@import url(./blocks/about.css);
+@import url(./blocks/footer.css);
+@import url(./services_blocks/services_top.css);
+@import url(./services_blocks/services_main_con.css);
+@import url(./services_blocks/services_partners.css);
+@import url(./services_blocks/services_footer.css);
+@import url(./hipage_blocks/hipage.css);
+@import url(./review_blocks/review_advertising.css);
+@import url(./review_blocks/review_reviews.css);
+@import url(./review_blocks/review_form.css);
+@import url(./review_blocks/review_footer.css);
+@import url(./blocks/dropdown.css);

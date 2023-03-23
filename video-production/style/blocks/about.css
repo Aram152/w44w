@@ -1,0 +1,40 @@
+.about__container{
+    margin-top: 149px;
+    height: 552px;
+    position: relative;
+}
+
+.about__img{
+    position: absolute;
+    z-index: 10;
+    float: left;
+}
+
+.about__card{
+    position: absolute;
+    z-index: 20;
+    right: 0;
+    top: 97px;
+    width: 785px;
+    height: 455px;
+    background-color: #FFFFFF;
+    padding-top: 70px;
+    padding-left: 81px;
+    padding-right: 81px;
+    padding-bottom: 66px;
+}
+.title--about{
+    font-size: 36px;
+    font-weight: 800;
+    color: black;
+    text-transform: uppercase;
+}
+
+.about__us{
+    margin-top: 37px;
+    margin-bottom: 43px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: black;
+}

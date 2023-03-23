@@ -1,0 +1,110 @@
+.comments-form{
+    background: #F4F5F5;
+}
+
+.comments-form__title{
+    color: #202020;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-bottom: 56px;
+    padding-top: 79px;
+}
+
+.form-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form__input{
+    flex: 1;
+    margin-right: 28px;
+    margin-bottom: 26px;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 30px;
+}
+.form__input:last-child{
+    margin-right: 0;
+    /* margin-bottom: 34px; */
+}
+
+.form__input--textarea{
+    height: 235px;
+    margin-bottom: 33px;
+    /* overflow: hidden; */
+    color: black;
+    resize: none;
+}
+
+.controls__element{
+    cursor: pointer;
+}
+
+.controls{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.form__controls{
+    display: flex;
+    /* justify-content: center; */
+    /* vertical-align: baseline; */
+    align-items: baseline;
+    padding-bottom: 33px;
+}
+
+.form__controls-title{
+    color: #1A1B1E;
+    font-size: 18px;
+    font-weight: 400;
+    width: 40%;
+}
+.form__input{
+    color: #1A1B1E;
+}
+
+.controls__item{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.controls__checkbox:checked ~.controls__tag{
+    background: #F2D4C9;
+}
+
+.controls__checkbox{
+    display: none;
+}
+
+.form__bottons{
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-end;
+    padding-bottom: 96px;
+}
+.button--color--black{
+    background: #FF5500;
+    width: 168px;
+    /* height: 55px; */
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.button--color--black:hover{
+    background: #FF3D00;
+}
+
+.button--color--gray{
+    background: #8E8E8E;
+    width: 168px;
+    /* height: 55px; */
+    font-size: 14px;
+    font-weight: 700;
+}
+.button--color--gray:hover{
+    background: #2B2B2B;
+}

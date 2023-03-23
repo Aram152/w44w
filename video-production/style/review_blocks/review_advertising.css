@@ -1,0 +1,25 @@
+.advertising{
+    background: #373737;
+    min-height: 363px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.advertising__container{
+    background: url(../../img/review/party.png) right no-repeat;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.advertising__text{
+    width: 553px;
+    font-size: 48px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+.advertising__text-span{
+    color: #FF5400;
+}

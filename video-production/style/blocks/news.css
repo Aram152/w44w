@@ -1,0 +1,67 @@
+.news__container{
+    margin-top: 180px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 1141px;
+    flex-direction: column;
+    /* align-items: center; */
+}
+/* .news__container:nth-child(0){
+    align-items: start;
+} */
+.news__container:nth-child(2){
+    align-items: center;
+}
+.news__container:nth-child(3){
+    align-items: center;
+}
+
+.news__list{
+    display: inline-flex;
+}
+
+.news__item{
+    width: 557px;
+    height: 394px;
+    margin-left: 21px;
+}
+.news__item:first-child{
+    margin-left: 0;
+}
+
+.news__item--video{
+    background-image: url(../../img/camera.png);
+}
+.news__item--sale{
+    background-image: url(../../img/wedding.png);
+}
+
+.news__date{
+    width: 99px;
+    height: 21px;
+    /* position: absolute; */
+    margin-top: 252.5px;
+    margin-right: 433px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.news__title{
+    /* width: 443px; */
+    margin-top: 12.5px;
+    margin-left: 31px;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.news__text{
+    /* width: 442px;
+    height: 42px; */
+    /* margin-top: 322px; */
+    margin-right: 83px;
+    margin-bottom: 26px;
+    margin-left: 32px;
+    font-size: 16px;
+    font-weight: 400;
+}

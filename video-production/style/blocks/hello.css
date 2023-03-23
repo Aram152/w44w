@@ -1,0 +1,36 @@
+.hello__container{
+    position: relative;
+    /* margin-top: 234px; */
+    /* text-align: center; */
+    /* width: 781px;
+    height: 197px; */
+    text-align: center;
+    background:none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hello__title{
+    margin-top: 153.86px;
+    font-weight: 800;
+    font-size: 72px;
+    font-style: normal;
+    line-height: 98px;
+    text-transform: uppercase;
+}
+
+.hello__text{
+    margin-top: 17.5px;
+    margin-right: 0;
+    text-align: center;
+}
+
+.button--hello{
+    margin-top: 43.5px;
+    /* text-align: center; */
+    /* position: absolute; */
+    /* left: 50%;
+    transform: translate(-50%, 0); */
+}
+

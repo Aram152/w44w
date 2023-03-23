@@ -1,0 +1,57 @@
+.main-content{
+    position: relative;
+}
+
+.entry{
+    width: 1128px;
+    height: 643px;
+    background: url(../../img/hi_img/rec.png) no-repeat;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.animation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0%;
+    transition: 0.37s;
+    scale: 0.6;
+}
+
+.button--entry{
+    margin-top: 38px;
+    background: #FF5500;
+}
+.button--entry:hover{
+    background: #FF3D00;
+}
+
+.wrapper:hover .animation{
+    opacity: 100%;
+    scale: 1;
+    animation: hiAnimation 0.65s;
+}
+
+@keyframes hiAnimation{
+    0%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-20deg);
+    }
+    85%{
+        transform: rotate(8deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

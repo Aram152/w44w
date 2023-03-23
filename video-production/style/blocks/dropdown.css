@@ -1,0 +1,109 @@
+.contacts__info{
+    cursor: pointer;
+    border-bottom: 1px solid;
+    /* position: relative; */
+}
+
+.dropdown{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.dropdown::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: 10px;
+  }
+
+  .dropdown__menu {
+    position: absolute;
+    top: 31px;
+    right: 0;
+    padding: 14px 17px;
+    background: bisque;
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    width: 157px;
+    background: #ededed;
+    color: #000;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 21px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+
+  .dropdown__triangle {
+    position: relative;
+  }
+
+  .dropdown__triangle::after {
+    content: "";
+    position: absolute;
+    right: 26px;
+    top: -34px;
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-bottom: 10px solid #ededed; /* Добавляем треугольник */
+  }
+
+  .dropdown:hover .dropdown__menu {
+    opacity: 0.8;
+    pointer-events: all;
+  }
+
+/* .dropdown__menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    display: none;
+    pointer-events: all;
+} */
+
+/* .dropdown__list{
+    background: #FFFFFF;
+    padding: 15px 19px;
+    color: #1E1F20;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.dropdown__item--up{
+    font-weight: 700;
+} */
+
+/* .dropdown__triangle{
+    border: 11px solid transparent;
+    width: 0;
+    height: 0;
+    border-bottom-color: #FFFFFF;
+    margin-left: 99px;
+    border-top-width: 0;
+    border-left-width: 16px;
+    border-right-width: 16px;
+} */
+
+/* .dropdown:hover .dropdown__menu{
+    display: block;
+} */
+
+.contacts__info:hover{
+    color: #FF3D00;
+    transition: 0.32s;
+}
+
+/* .contacts__info::after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 40px;
+    width: 160px;
+    left: 0;
+    right: 0;
+    bottom: -39px;
+} */
