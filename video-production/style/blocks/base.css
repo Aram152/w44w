@@ -88,7 +88,7 @@ ul{
 .button{
     border: 0;
     cursor: pointer;
-    background: #FF3D00;
+    background: #FF5500;
     border-radius: 35px;
     padding: 18px;
     width: 195px;
@@ -98,6 +98,10 @@ ul{
     font-size: 14px;
     display:block;
     font-family: 'Open Sans';
+}
+.button:hover{
+    background: #FF3D00;
+    transition: 0.32s;
 }
 
 img{
@@ -140,9 +144,10 @@ img{
     /* line-height: 32px; */
 }
 
-.paginator__page--active{
+.paginator__page--active:hover{
     border-radius: 50%;
     background-color: #FF5500;
+    transition: 0.9s;
     /* line-height: 32px; */
 }
 

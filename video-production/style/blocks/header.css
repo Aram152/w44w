@@ -44,8 +44,9 @@
     margin-top: 31.64px;
     display: flex;
     flex-direction: column;
-    /* margin-left: 248px; */
-    /* text-align: right; */
+    align-items: flex-end;
+    /* margin-left: 248px;
+    text-align: right; */
 }
 
 .contacts__phone{
@@ -60,7 +61,7 @@
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
-    text-decoration-line: underline;
+    /* text-decoration-line: none; */
     text-align: right;
 }
 
