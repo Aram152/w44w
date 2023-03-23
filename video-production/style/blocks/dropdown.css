@@ -73,10 +73,17 @@
     border-radius: 4px;
     font-size: 13px;
     font-weight: 600;
-}
+} */
 .dropdown__item--up{
     font-weight: 700;
-} */
+    color: #1E1F20;
+    font-size: 13px;
+}
+.dropdown__item--down{
+    font-weight: 600;
+    color: #1E1F20;
+    font-size: 13px;
+}
 
 /* .dropdown__triangle{
     border: 11px solid transparent;
