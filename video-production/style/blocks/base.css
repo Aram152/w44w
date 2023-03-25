@@ -144,7 +144,7 @@ img{
     /* line-height: 32px; */
 }
 
-.paginator__page--active:hover{
+.paginator__page:hover,.paginator__page--active:hover{
     border-radius: 50%;
     background-color: #FF5500;
     transition: 0.9s;
