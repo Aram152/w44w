@@ -87,6 +87,7 @@
     padding-bottom: 96px;
 }
 .button--color--black{
+    color: #FFFFFF;
     background: #FF5500;
     width: 168px;
     /* height: 55px; */
@@ -99,6 +100,7 @@
 }
 
 .button--color--gray{
+    color: #FFFFFF;
     background: #8E8E8E;
     width: 168px;
     /* height: 55px; */
