@@ -1,15 +1,15 @@
-.top__header{
+.header--top{
     background-image: url(../../img/top-line.png);
     background-repeat: no-repeat;
     width: 100%;
 }
 
-.container--title{
+.title__container{
     display: flex;
     flex-direction: column;
 }
 
-.top__title{
+.title__top{
     margin-top: 113.86px;
     font-size: 72px;
     font-weight: 800;
